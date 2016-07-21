@@ -24,4 +24,33 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  width: 100%;
+  float: left;
+/*  background-color: yellow;*/
+}
 
+.col-2 {
+  width: 66%;
+  float: left;
+}
+
+.col-3 {
+  width: 32%;
+  float: left;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+#deals {
+  clear: both;
+/*  width: 0 auto;*/
+  margin-left: 0;
+  margin-top: 2%;
+}
